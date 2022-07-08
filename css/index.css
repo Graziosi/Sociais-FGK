@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* conta a partir da borda */
+}
+
+html{
+    --text-color: #000000;
+    height: 100%;
+    ;
+}
+
+body{
+    background: linear-gradient(180deg,#6fece8, #03c0ba) repeat-x;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+ ul{
+    list-style: none;
+    margin: 48px 0;
+ }
+
+.container{
+    text-align:center;
+    width: 300px;
+    margin: 60px auto;
+   
+}
+
+img.avatar{
+    border-radius: 50%;
+    width: 100px; 
+    height: 100px;
+    padding: 4px;
+    background: #ffffff;
+}
+
+h1{
+    color: var(--text-color);
+    font-size: 25px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+
+.username{
+    color: var(--text-color);
+    font-family: 'Roboto Mono', monospace; 
+    font-size: 16px;  
+}
+
+.username:hover{
+    color: #ffffff;
+}
+
+ul li a{
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    background: #ffffff;  /*#091e44 #1e494e #091e44*/
+    color: #00a19b;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+ul li a:hover{
+    background: #049691;
+    color: #ffffff;
+    transition: background 800ms;
+}
+
+.social-media-link{
+    width: 100%;
+}
+
+.social-media-name{
+    width: 80%;
+    margin-left: 20%;
+}
+
+.social-media-icon{
+    width: 20%;
+}
+
+footer{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+a.text-footer{
+    font-weight: var(--font-weight);
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+a.text-footer:hover{
+    color: #ffffff;
+}
+
+p.copyright{
+    margin-top: 30px;
+    font-weight: var(--font-weight);
+    color: var(--text-color);
+    font-size: 10px;
+}
+
+
+
+
