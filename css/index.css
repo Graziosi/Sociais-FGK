@@ -6,12 +6,11 @@
 
 html{
     --text-color: #000000;
-    height: 100%;
-    ;
+    height: 900px;
 }
 
 body{
-    background: linear-gradient(180deg,#6fece8, #03c0ba) repeat-x;
+    background: linear-gradient(180deg,#6fece8, #03c0ba) no-repeat;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -28,8 +27,7 @@ a{
 .container{
     text-align:center;
     width: 300px;
-    margin: 60px auto;
-   
+    margin: 40px auto;
 }
 
 img.avatar{
