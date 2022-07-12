@@ -41,6 +41,7 @@ img.avatar{
 h1{
     color: var(--text-color);
     font-size: 25px;
+    font-family: 'Roboto Slab';
     margin-top: 24px;
     margin-bottom: 8px;
 }
